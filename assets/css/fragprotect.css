@@ -1,0 +1,30 @@
+.captcha_real_mail {
+ text-decoration: underline;
+}
+.captcha_mailhide_root {
+    width: 100%; /* Full width of the container */
+    position: relative; /* Allows absolute positioning for the slider */
+    overflow: hidden; /* Prevents the slider from overflowing visually */
+}
+
+.captcha_mailhide_slider {
+    position: absolute;
+    bottom: 0;
+    width: 5px; /* Width of the slider */
+    height: 4px; /* Height of the slider */
+    background-color: RGBa(129, 191, 231);
+    animation: slideLeftRight 3s linear infinite;
+}
+.captcha_mailhide_slider.inactive {
+    // animation: none;
+    display: none;
+}
+
+@keyframes slideLeftRight {
+    0%, 100% {
+        left: 0;
+    }
+    50% {
+        left: calc(100%); /* Moves to the right, subtracting the slider's width */
+    }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="218" height="218" viewBox="0 0 218 218">
+  <defs>
+    <filter id="Ellipse_395" x="0" y="0" width="218" height="218" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Gruppe_11295" data-name="Gruppe 11295" transform="translate(-1095 -2168)">
+    <g transform="matrix(1, 0, 0, 1, 1095, 2168)" filter="url(#Ellipse_395)">
+      <circle id="Ellipse_395-2" data-name="Ellipse 395" cx="100" cy="100" r="100" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <g id="Wordpress-Logo" transform="translate(1127.077 2200.079)">
+      <path id="Pfad_2978" data-name="Pfad 2978" d="M8.708,66.508a65.462,65.462,0,0,0,36.887,58.9L14.374,39.872A65.2,65.2,0,0,0,8.708,66.508Z" transform="translate(2.137 11.037)" fill="#0078a0"/>
+      <path id="Pfad_2979" data-name="Pfad 2979" d="M116.221,70.853c0-8.089-2.905-13.691-5.4-18.051-3.318-5.391-6.427-9.957-6.427-15.348,0-6.016,4.563-11.617,10.991-11.617.29,0,.565.036.848.052A65.436,65.436,0,0,0,17.352,38.209c1.536.046,2.983.078,4.212.078,6.846,0,17.443-.831,17.443-.831a2.7,2.7,0,0,1,.42,5.391s-3.546.417-7.491.624L55.77,114.365,70.093,71.408,59.9,43.469c-3.524-.207-6.863-.624-6.863-.624-3.527-.207-3.113-5.6.413-5.391,0,0,10.809.831,17.24.831,6.845,0,17.443-.831,17.443-.831a2.7,2.7,0,0,1,.42,5.391s-3.553.417-7.491.624l23.652,70.357,6.528-21.815C114.067,82.958,116.221,76.456,116.221,70.853Z" transform="translate(4.258 2.137)" fill="#0078a0"/>
+      <path id="Pfad_2980" data-name="Pfad 2980" d="M66.053,65.857,46.416,122.919a65.48,65.48,0,0,0,40.223-1.044,5.747,5.747,0,0,1-.466-.9Z" transform="translate(12.034 17.413)" fill="#0078a0"/>
+      <path id="Pfad_2981" data-name="Pfad 2981" d="M112.209,36.046a50.21,50.21,0,0,1,.441,6.73c0,6.642-1.24,14.108-4.977,23.443l-19.992,57.8a65.461,65.461,0,0,0,24.528-87.975Z" transform="translate(22.768 10.098)" fill="#0078a0"/>
+      <path id="Pfad_2982" data-name="Pfad 2982" d="M76.921,0a76.921,76.921,0,1,0,76.925,76.919A77.008,77.008,0,0,0,76.921,0Zm0,150.315a73.394,73.394,0,1,1,73.39-73.4A73.48,73.48,0,0,1,76.921,150.315Z" transform="translate(0 0)" fill="#0078a0"/>
+    </g>
+  </g>
+</svg>

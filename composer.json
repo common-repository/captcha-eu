@@ -1,0 +1,42 @@
+{
+  "name": "captcha-eu/wp-plugin",
+  "type": "wordpress-plugin",
+  "support": {
+    "src": "http://gitlab.krone.at/captcha/wp-plugin"
+  },
+  "extra": {
+    "installer-name": "captcha-eu"
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "composer/installers": "~1.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "cs-check": "vendor/bin/php-cs-fixer fix --verbose --diff --dry-run",
+    "cs-fix": "vendor/bin/php-cs-fixer fix --verbose --diff"
+  },
+  "config": {
+    "gitlab-domains": [
+      "gitlab.krone.at"
+    ],
+    "github-protocols": [
+      "https"
+    ],
+    "secure-http": false,
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "require-dev": {
+    "php-mock/php-mock": "^2.0",
+    "friendsofphp/php-cs-fixer": "^3.8",
+    "scrutinizer/ocular": "^1.5",
+    "phpunit/phpunit": ">=8.5.23",
+    "yoast/phpunit-polyfills": "^1.0"
+  }
+}

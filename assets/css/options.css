@@ -1,0 +1,380 @@
+.captcha-at {
+	margin: 0;
+}
+.toplevel_page_captcha-eu #wpwrap,
+.captcha_page_captcha-eu-settings #wpwrap,
+.toplevel_page_captcha-eu-settings #wpwrap {
+	background-color: #F2FBFF;
+}
+.toplevel_page_captcha-eu #wpcontent,
+.captcha_page_captcha-eu-settings #wpcontent,
+.toplevel_page_captcha-eu-settings #wpcontent {
+	padding-left: 0;
+}
+
+/* WP Footer */
+.toplevel_page_captcha-eu #wpfooter,
+.captcha_page_captcha-eu-settings #wpfooter,
+.toplevel_page_captcha-eu-settings #wpfooter {
+	display: none;
+}
+
+/* Update NAG/Notice */
+.update-nag.captcha-at-nag {
+	display: block;
+	padding-top: 10px;
+	height: 150px;
+	background-color: #E6F7FF;
+	box-shadow: 1px 1px 3px rgb(0 0 0 / 3%);
+	margin-top: 40px;
+}
+.update-nag.captcha-at-nag .wrapper {
+	display: flex;
+	height: 100%;
+}
+.update-nag.captcha-at-nag .icon {
+	width: 173px;
+	height: 130px;
+	background-image: url('../img/nag-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	align-self: center;
+	flex-shrink: 0;
+}
+.update-nag.captcha-at-nag .content {
+	flex-grow: 1;
+	display: flex;
+	margin-left: 20px;
+	flex-direction: column;
+}
+.update-nag.captcha-at-nag .content .title {
+	margin-top: 24px;
+	font-size: 22px;
+	color: #162A33;
+}
+.update-nag.captcha-at-nag .content .text {
+	flex-grow: 1;
+}
+.update-nag.captcha-at-nag .content .actions {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.update-nag.captcha-at-nag .content .actions .btn {
+	margin-right: 16px;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #68C1EB;
+	border: none;
+	border-radius: 18px;
+	padding: 8px 17px;
+	text-decoration: none;
+}
+
+.update-nag.captcha-at-nag.validation-errors {
+	height: auto;
+}
+
+/* HEADER */
+.captcha-at .settings-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 125px;
+	margin-bottom: 20px;
+}
+.captcha-at .settings-header img {
+	max-height: 80px;
+}
+.captcha-at .settings-header img.captcha_logo {
+	width: 168px;
+	height: 61px;
+}
+
+/* CONTENT / FORM */
+.captcha-at .settings-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	padding-top: 0px;
+}
+.captcha-at .settings-content .button.cpt-documentation,
+.captcha-at .settings-content .button.cpt-dashboard {
+	border-radius: 20px;
+	padding: 5px 20px;
+	background-color: #68C1EB;
+	border: none;
+	line-height: 28px;
+	font-size: 14px;
+	color: #FFF;
+}
+.captcha-at .settings-content .button.cpt-dashboard {
+	margin-right: 20px;
+}
+
+/* PANEL */
+.captcha-at .panel {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 650px;
+	background-color: #FFF;
+	box-shadow: 0px 1px 2px #00000029;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.captcha-at .panel .content {
+	display: flex;
+	padding: 24px;
+	padding-top: 0px;
+}
+.captcha-at .panel.t-info-user .header,
+.captcha-at .panel.t-info-plan .header,
+.captcha-at .panel.t-plugins .header,
+.captcha-at .panel.t-info-plugin .header {
+	border-bottom: 1px solid #00000029;
+}
+.captcha-at .panel .header .title {
+	display: flex;
+	padding: 24px;
+}
+
+/* Title Icons */
+.captcha-at .panel .header .title .key-rest,
+.captcha-at .panel .header .title .key-public,
+.captcha-at .panel .header .title .host,
+.captcha-at .panel .header .title .plugin {
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	background-size: contain;
+	background-position: center;
+	margin-right: 18px;
+}
+.captcha-at .panel .header .title .key-rest { background-image: url('../img/key.svg'); }
+.captcha-at .panel .header .title .key-public { background-image: url('../img/public.svg'); }
+.captcha-at .panel .header .title .host { background-image: url('../img/domain.svg'); }
+.captcha-at .panel .header .title .plugin { background-image: url('../img/extension.svg'); }
+
+.captcha-at .panel .header label {
+	display: flex;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.captcha-at .panel .title {
+	font-weight: bold;
+	font-size: 14px;
+}
+.captcha-at .panel > label {
+	margin-bottom: 10px;
+}
+.captcha-at .panel label {
+	color: #1A1A1A;
+	margin-top: 3px;
+}
+
+/* Info Icon */
+.captcha-at .panel .content .info-icon {
+	width: 20px;
+	margin-left: 10px;
+	background-image: url(../img/info.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* Textarea */
+.captcha-at .panel .content textarea {
+	width: 100%;
+	min-height: 100px;
+	padding: 10px;
+}
+
+/* Text Input */
+.captcha-at .panel .content input[type="text"] {
+	color: #1A1A1A;
+	width: 100%;
+	line-height: 16px;
+	font-size: 12px;
+	border: 1px solid #4D4D4D;
+}
+.captcha-at .panel .content input[type="text"]:focus {
+	box-shadow: none;
+	outline: none;
+}
+.captcha-at .panel .content input[type="text"]:placeholder-shown {
+	border: 1px solid #E6E6E6;
+}
+.captcha-at .panel .content input[type="text"].invalid {
+	border: 1px solid red;
+}
+.captcha-at .panel .content input[type="text"].valid {
+	border: 1px solid green;
+}
+
+/* K/V Table */
+.captcha-at .panel .key-value > div {
+	color: #1A1A1A;
+}
+.captcha-at .panel .key-value > div {
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px solid #00000029;
+	padding: 16px 20px;
+	height: 20px;
+}
+.captcha-at .panel .key-value > div:last-child {
+	border-bottom: none;
+}
+
+.captcha-at .panel.t-info-user .key-value > div.kv_name .key,
+.captcha-at .panel.t-info-user .key-value > div.kv_e-mail .key,
+.captcha-at .panel.t-info-user .key-value > div.kv_created_at .key {
+	background-repeat: no-repeat;
+	padding-left: 36px;
+}
+.captcha-at .panel.t-info-user .key-value > div.kv_name .key { background-image: url('../img/person.svg'); background-position-x: 1px; }
+.captcha-at .panel.t-info-user .key-value > div.kv_e-mail .key { background-image: url('../img/mail.svg'); }
+.captcha-at .panel.t-info-user .key-value > div.kv_created_at .key { background-image: url('../img/today.svg'); background-position-x: 1px; }
+.captcha-at .panel.t-info-plan .key-value > div {
+	padding: 16px 24px;
+}
+
+/* Checkbox Group */
+.captcha-at .panel .check-items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.captcha-at .panel .check-items .grp {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #3c434a;
+}
+
+.captcha-at .panel .check-items .grp.divi,
+.captcha-at .panel .check-items .grp.elementor,
+.captcha-at .panel .check-items .grp.woocommerce,
+.captcha-at .panel .check-items .grp.gravityforms,
+.captcha-at .panel .check-items .grp.ninjaforms,
+.captcha-at .panel .check-items .grp.mc4wp,
+.captcha-at .panel .check-items .grp.wpforms,
+.captcha-at .panel .check-items .grp.contactform7,
+.captcha-at .panel .check-items .grp.wordpress {
+	padding-left: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 40px;
+	line-height: 40px;
+}
+.captcha-at .panel .check-items .grp.wordpress { background-image: url(../img/wordpress.svg); }
+.captcha-at .panel .check-items .grp.contactform7 { background-image: url(../img/contactform7.svg); }
+.captcha-at .panel .check-items .grp.wpforms { background-image: url(../img/wpforms.svg); }
+.captcha-at .panel .check-items .grp.mc4wp { background-image: url(../img/mc4wp.png); }
+.captcha-at .panel .check-items .grp.ninjaforms { background-image: url(../img/ninjaforms.png); }
+.captcha-at .panel .check-items .grp.gravityforms { background-image: url(../img/gravityforms.png); }
+.captcha-at .panel .check-items .grp.woocommerce { background-image: url(../img/woocommerce.png); }
+.captcha-at .panel .check-items .grp.elementor { background-image: url(../img/elementor.png); }
+.captcha-at .panel .check-items .grp.divi { background-image: url(../img/divi.png); }
+
+
+.captcha-at .panel .check-item {
+	padding: 5px;
+	display: flex;
+
+	/* 3 columns*/
+	flex-basis: 33.3%;
+	box-sizing: border-box;
+}
+.captcha-at .panel .check-item input[type="checkbox"] {
+	height: 24px;
+	width: 24px;
+	margin: 0;
+	margin-right: 5px;
+	flex-shrink: 0;
+}
+.captcha-at .panel .check-item input[type="checkbox"]:checked::before {
+	content: url(../img/done.svg);
+	margin-left: -1px;
+	margin-top: 5px;
+}
+.captcha-at .panel .check-item input[type="checkbox"]:before {
+	height: 24px;
+	width: 24px;
+	margin-left: -2px;
+	margin-top: 0px;
+}
+
+/* Panel BG's */
+.captcha-at .panel.t-success { background-color: #EDFAF2; }
+.captcha-at .panel.t-warning { background-color: #FFF7E6; }
+.captcha-at .panel.t-error { background-color: #FCF0F3; }
+
+/* Panel Icons */
+.captcha-at .panel .icon {
+	float: left;
+	height: 18px;
+	width: 18px;
+	margin-right: 10px;
+	background-size: contain;
+}
+
+.captcha-at .panel .msg { padding: 20px; }
+.captcha-at .panel.t-success .icon { background-image: url(../../assets/img/success.svg); }
+.captcha-at .panel.t-warning .icon { background-image: url(../../assets/img/warning.svg); }
+.captcha-at .panel.t-error .icon { background-image: url(../../assets/img/error.svg); }
+
+#captcha-at-form-option-settings .submit {
+	text-align: center;
+}
+#captcha-at-form-option-settings .submit input {
+	border-radius: 20px;
+	padding: 5px 20px;
+	background-color: #68C1EB;
+	border: none;
+	background-image: url("../img/save.svg") !important;
+	background-repeat: no-repeat !important;
+	background-position: 20px !important;
+	padding-left: 47px;
+	line-height: 28px;
+	font-size: 14px;
+}
+#captcha-at-form-option-settings .submit input:disabled {
+	color: #FFF !important;
+	background-color: #CCC !important;
+}
+
+/* Input Placeholder Styles */
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+.captcha-at .panel input::placeholder { color: #4D4D4D; opacity: 1; }
+/* Internet Explorer 10-11 */
+.captcha-at .panel input:-ms-input-placeholder { color: #DDD; }
+/* Microsoft Edge */
+.captcha-at .panel input::-ms-input-placeholder { color: #DDD; }
+
+/* Breakpoints for smaller screens */
+@media only screen and (max-width: 782px) {
+	.captcha-at form {
+		width: 100%;
+	}
+	.captcha-at .panel {
+		width: 100%;
+	}
+	/* 2 columns */
+	.captcha-at .panel .check-item {
+		flex-basis: 50%;
+	}
+}
+@media only screen and (max-width: 450px) {
+	/* 1 column */
+	.captcha-at .panel .check-item {
+		flex-basis: 100%;
+	}
+}

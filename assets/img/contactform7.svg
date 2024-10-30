@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="98" viewBox="0 0 98 98">
+  <defs>
+    <filter id="Ellipse_392" x="0" y="0" width="98" height="98" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_387" data-name="Ellipse 387" cx="28" cy="28" r="28" transform="translate(0.264 -0.019)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_3" data-name="3" transform="translate(8.718 9)">
+    <g transform="matrix(1, 0, 0, 1, -8.72, -9)" filter="url(#Ellipse_392)">
+      <circle id="Ellipse_392-2" data-name="Ellipse 392" cx="40" cy="40" r="40" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(12.019 12.019)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+        <g id="Gruppe_11291" data-name="Gruppe 11291" transform="translate(0)" clip-path="url(#clip-path)">
+          <circle id="Ellipse_386" data-name="Ellipse 386" cx="28" cy="28" r="28" transform="translate(0.264 -0.019)" fill="#33c6f4"/>
+          <path id="Pfad_3502" data-name="Pfad 3502" d="M57.891,94.708c-12.9-5.795-26.166-22.083-27.284-22.829s-2.617.186-2.617.186c-.934-1.495-2.429.186-2.429.186C18.643,84.026.14,95.268.14,95.268A34.341,34.341,0,0,0,29.563,111.61,31.009,31.009,0,0,0,57.891,94.708Z" transform="translate(-0.971 -55.059)" fill="#1b447e"/>
+          <path id="Pfad_3503" data-name="Pfad 3503" d="M67.48,83.7s3.738-1.69,2.989,1.123-3.738,6.915-2.8,7.1,3.561-2.429,4.3-2.057,1.309.188.934,1.5-.749,2.243,0,2.243,1.309-1.69,2.243-3.366a1.78,1.78,0,0,1,2.989-.374c.56.56,2.243,3.74,3.552,3.366s2.055-2.057,1.495-5.795.374-4.858.374-4.858,1.12-.56,3.178,2.055,5.795,6.541,6.353,6.355-2.615-4.3-1.869-4.672,3.738.56,5.235,1.869c0,0,.512,2.142.512.087L81.685,73.24l-2.617.184-2.429.186S70.658,82.584,67.48,83.7Z" transform="translate(-52.051 -56.42)" fill="#fff"/>
+          <path id="Pfad_3504" data-name="Pfad 3504" d="M57.891,95.268c-12.9-5.795-26.166-22.643-27.284-23.39s-2.617.186-2.617.186c-.934-1.495-2.429.186-2.429.186C18.643,84.026.14,95.268.14,95.268" transform="translate(-0.971 -55.059)" fill="none" stroke="#221e1f" stroke-width="2"/>
+        </g>
+        <circle id="Ellipse_388" data-name="Ellipse 388" cx="28" cy="28" r="28" transform="translate(0.264 -0.019)" fill="none" stroke="#221e1f" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

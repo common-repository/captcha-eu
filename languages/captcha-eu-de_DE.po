@@ -1,0 +1,194 @@
+# Captcha.eu
+msgid ""
+msgstr ""
+"Project-Id-Version: Captcha.eu\n"
+"POT-Creation-Date: 2023-02-23 14:00+0200\n"
+"PO-Revision-Date: 2023-02-23 14:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Admin.php
+msgid "ERROR"
+msgstr "FEHLER"
+
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Captcha.eu Settings"
+msgstr "Captcha.eu Einstellungen"
+
+msgid "Captcha.eu Ticket"
+msgstr "Captcha.eu Ticket"
+
+msgid "Captcha.eu failed"
+msgstr "Captcha.eu fehlgeschlagen"
+
+msgid "Overview"
+msgstr "Überblick"
+
+msgid "Let&apos;s set up your protection"
+msgstr "Richte deinen Schutz ein"
+
+msgid "Thank you for using Captcha! Make sure to update your settings to enable your protection!"
+msgstr "Danke, dass du Captcha benutzt! Stelle sicher dass deine Einstellungen vollständig sind um deinen Schutz zu aktivieren!"
+
+msgid "Successfully deactivated Captcha.eu"
+msgstr "Captcha.eu wurde erfolgreich deaktiviert"
+
+msgid "You can always reactivate this plugin on your plugins page"
+msgstr "Du kannst das Plugin jederzeit auf deiner Plugin Seite reaktivieren"
+
+msgid "Open Ticket"
+msgstr "Support Anfrage"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Message *"
+msgstr "Nachricht *"
+
+msgid "Send"
+msgstr "Senden"
+
+msgid "Ticket couldn't be sent!"
+msgstr "Ticket konnte nicht eröffnet werden!"
+
+msgid "Ticket created successfully"
+msgstr "Ticket erfolgreich eröffnet"
+
+msgid "Connection failed"
+msgstr "Verbindung fehlgeschlagen"
+
+msgid "Connection failed. Invalid Public Key"
+msgstr "Verbindung fehlgeschlagen. Invalider Public Key"
+
+msgid "E-Mail"
+msgstr "E-Mail"
+
+msgid "Created at"
+msgstr "Erstellt am"
+
+msgid "Validations Total"
+msgstr "Validierungen Total"
+
+msgid "Validations left"
+msgstr "Validierungen übrig"
+
+msgid "Hard Validations"
+msgstr "Hard Validations"
+
+msgid "Last Payment"
+msgstr "Letzte Zahlung"
+
+msgid "Period Start"
+msgstr "Periode Start"
+
+msgid "Period End"
+msgstr "Periode Ende"
+
+msgid "Days left"
+msgstr "Tage verbleibend"
+
+msgid "Connection failed - Verify your settings!"
+msgstr "Verbindung fehlgeschlagen - Prüfe deine Einstellungen!"
+
+msgid "Fields missing or empty"
+msgstr "Felder fehlen oder sind leer"
+
+msgid "Back to"
+msgstr "Zurück zu"
+
+msgid "Spam declined"
+msgstr "Spam abgelehnt"
+
+msgid "Once every 30 minutes"
+msgstr "Alle 30 Minuten"
+
+msgid "SDK Version"
+msgstr "SDK Version"
+
+msgid "Download"
+msgstr "Herunterladen"
+
+msgid "Validation Requests failed - Make sure to check your network settings!"
+msgstr "Validierungsanfragen fehlgeschlagen - Prüfe deine Netzwerkeinstellungen!"
+
+# options-settings.php
+msgid "Settings updated"
+msgstr "Einstellungen aktualisiert"
+
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+msgid "Paste your REST Key here"
+msgstr "Füge deinen REST Key hier ein"
+
+msgid "Paste your Public Key here"
+msgstr "Füge deinen Public Key hier ein"
+
+msgid "Paste your Host here"
+msgstr "Füge deinen Host ein"
+
+msgid "Select your Plugins"
+msgstr "Wähle deine Plugins aus"
+
+msgid "3rd Party"
+msgstr "Drittanbieter"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Registration"
+msgstr "Registrierung"
+
+msgid "Password Reset"
+msgstr "Passwort zurücksetzen"
+
+msgid "Comments"
+msgstr "Kommentare"
+
+msgid "You can find your Public Key in the Captcha Dashboard:"
+msgstr "Du findest deinen Public Key im Captcha Dashboard:"
+
+msgid "You can find your REST Key in the Captcha Dashboard:"
+msgstr "Du findest deinen REST Key im Captcha Dashboard:"
+
+msgid "You can find your Host in the Captcha Dashboard:"
+msgstr "Du findest deinen Host im Captcha Dashboard:"
+
+msgid "Enable"
+msgstr "Aktivieren"
+
+msgid "Register"
+msgstr "Registrierung"
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "Proxy Settings"
+msgstr "Proxy Einstellungen"
+
+# options.php
+
+msgid "User Information"
+msgstr "Benutzer Information"
+
+msgid "Plan Information"
+msgstr "Plan Information"
+
+msgid "Plugin Information"
+msgstr "Plugin Information"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Dashboard"
+msgstr "Dashboard"
